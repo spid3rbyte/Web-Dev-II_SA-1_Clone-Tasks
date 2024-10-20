@@ -1,0 +1,196 @@
+
+/* media queries for all devices */
+@media (orientation: portrait), (max-resolution: 1024px) {
+}
+
+
+/* Ssmall mobile first  */
+@media (min-width: 350px) and (max-width: 540px) {
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main {
+        padding: 12px; /* following the specification for small mobile  */
+    }
+
+    .first, .second, .third {
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+
+    img {
+        width: 100%; /*to make the images responsive*/
+        height: auto;
+    }
+}
+
+/* large mobile:  */
+@media (min-width: 541px) and (max-width: 720px) {
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .first, .second, .third {
+        width: 58%; 
+        display: inline-block; /* helps display the columns next to each other */
+        margin-bottom: 20px; 
+    }
+
+    img {
+        width: 100%;
+        height: auto; 
+    }
+}
+
+/* tablet section */
+@media (min-width: 721px) and (max-width: 1024px) {
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main {
+        padding: 30px; 
+    }
+
+    .first, .second, .third {
+        width: 30%; 
+        display: inline-block; 
+        vertical-align: top; 
+        margin: 0 1%; 
+    }
+
+    img {
+        width: 100%; 
+        height: auto; 
+    }
+}
+
+
+.protest-guerrilla-regular, h1, h2 { /* to assign the font for headings */
+    font-family: "Protest Guerrilla";
+    font-style: normal;
+}      
+
+
+.josefin-sans, p { /* to assign the font for body */
+  font-family: "Josefin Sans", sans-serif; 
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+body {
+    background-color: #e9e9e9;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.navigation {
+    width: 100%;
+    overflow: auto;
+    justify-content: center;
+    display: flex; /*to use flexbox*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+  
+  /* navigation links */
+  .navigation a {
+    text-decoration: none; /* removes the underline from the links */
+    text-align: center;
+    font-size: 17px;
+    color: black; 
+    flex: 1; /* to create equal width between the links */
+}
+
+.main {
+    background-color: white;
+    text-align: left; /* align the text on the left */
+    display: flex; /* flexbox */
+    flex-wrap: wrap;
+    flex:1;
+    justify-content: center; 
+    align-items: center;
+    border: 1px solid black; /* color of border as well as the thickness */
+    margin-bottom: 50px; /* to seperate the container with the nav bar, and to leave space */
+    max-width: 1500px;  /* max width of container */         
+    margin: 0 auto;  /* space */          
+    padding: 20px;          
+}
+
+.second {
+    display: flex;
+    flex:1;
+    float: right;
+    display: flex;
+    justify-content: right;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.third {
+    display: flex;
+    float: right;
+    justify-content: right;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.images {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.author {
+    justify-content: center;
+    text-align: left; /*to ensure the text is on the left side*/
+    margin: 0 auto;
+    margin-left: 200px;
+    width: 1000px;
+}
+
+.author .text {
+    text-align: left;
+    margin-left: 200px;
+    display: flex;
+}
+
+/*to adjust the heading in the author div*/
+.author h2 {
+    text-align: center;
+}
+
+.author img {
+    justify-content: right;
+    margin-left: 1000px;
+    margin-top: -110px;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+}
