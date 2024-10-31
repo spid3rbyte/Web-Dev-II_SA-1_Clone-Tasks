@@ -71,13 +71,6 @@
         padding: 30px; 
     }
 
-    .first, .second, .third {
-        width: 30%; 
-        display: inline-block; 
-        vertical-align: top; 
-        margin: 0 1%; 
-    }
-
     img {
         width: 100%; 
         height: auto; 
@@ -135,23 +128,29 @@ body {
 }
 
 .main {
-    background-color: white;
+    background-color: white; /* bg color */
     text-align: left; /* align the text on the left */
     justify-content: center; 
     align-items: center;
+    margin-left: 13%;/* align the div to be center manually */
     border: 1px solid black; /* color of border as well as the thickness */      
-    margin: 0 auto;  /* space */       
-    max-width: 1500px;  /* max width of container */    
-    height: 1000px;
-    display: flex; /* flexbox */
-    flex-wrap: wrap;    
-    padding: 20px;  
-    column-count: 3;        
-    box-sizing: border-box;
+    padding: 50px;
+    flex-wrap: wrap;
+    max-width: 1500px; /* set a max width for the container */
 }
 
-.mainimage 
-{
+.content{
+    padding: 5px;  
+    column-count: 3; /* to seperate the main content into 3 different headings */
+    flex-wrap: wrap;   
+    margin: 50px;  
+    height: 1000px; /* set a height */
+    column-gap: 5%; /* the space between the columns */
+    max-height: 1000px;
+}
+
+
+.mainimage {
     margin-right: 40px;
 }
 .images {
@@ -198,4 +197,8 @@ body {
 footer {
     justify-content: center;
     text-align: center;
+}
+
+.end {
+    margin-top: -300px;
 }
