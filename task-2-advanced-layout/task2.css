@@ -1,0 +1,301 @@
+
+/*media query for tablet*/
+@media (min-width: 720px) and (max-width: 1024px) {
+  .navigation {
+    width: 100%;
+    overflow: auto;
+    justify-content: space-between;
+    padding: 32px;
+    justify-content: center;
+    display: flex; /*to use flexbox*/
+  }
+
+  .left {
+    color: #EEF36A;
+    align-items: left;
+    justify-content: center;
+    margin-right: 100px;
+  }
+
+  nav a {
+    text-decoration: none; /* removes the underline from the links */
+    text-align: center;
+    font-size: 17px;
+    color: #FFFFFF; 
+    margin: 0 32px;
+    width: 50%;
+    float: center;
+    align-self: center;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.container1 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: left;
+  margin-left: 32px;/* align the div to be center manually */
+  margin-top: 32px;
+  margin-right: 100px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 400px; /* set a max width for the container */
+}
+
+.container1 p {
+  margin-left: 50px;
+  font-size: 1.5em;
+}
+
+img{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+}
+
+
+
+/*media query for desktop first*/
+@media (orientation: portrait), (max-resolution: 1024px) {
+}
+
+body {
+  background-color: #231651;
+}
+
+/* fonts */
+.lato-regular, p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.left {
+  color: #EEF36A;
+  align-items: left;
+  justify-content: left;
+  margin-right: 100px;
+}
+
+/* .right {
+  margin-left: -300px;
+} */
+/* teko font for headings and buttons */
+.teko, h1, h2, button {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 3em;
+}
+
+/* navigation bar */
+.navigation {
+  width: 100%;
+  overflow: auto;
+  justify-content: space-between;
+  padding: 50px;
+  justify-content: center;
+  display: flex; /*to use flexbox*/
+  border-bottom: 15px solid #FFFFFF;
+}
+
+  /* links inside the bar */
+   nav a {
+    text-decoration: none; /* removes the underline from the links */
+    text-align: center;
+    font-size: 17px;
+    color: #FFFFFF; 
+    margin-bottom: -300px;
+    margin: 0 100px;
+    width: 25%;
+    float: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.navigation h1 {
+  font-size: 50px;
+}
+
+button {
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-right: 0;
+  font-size: 2em;
+}
+
+.container1 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: 600px;/* align the div to be center manually */
+  margin-top: 50px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 900px; /* set a max width for the container */
+  box-shadow: grey 2px 5px solid;
+}
+
+.container1 p {
+margin-left: 10px;
+font-size: 1.5em;
+}
+
+.barbie {
+  display: flex;
+  justify-content:right;
+  align-items: right;
+  word-spacing: 50%;
+  font-size: 2em;
+}
+
+.container2 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: 600px;/* align the div to be center manually */
+  margin-top: 50px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 400px; /* set a max width for the container */
+}
+
+.container2 p {
+  margin-left: 10px;
+font-size: 1.5em;
+}
+
+.container2 button {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-left: 125px;
+  max-width: 50%;
+}
+
+
+.container3 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: 1100px;/* align the div to be center manually */
+  margin-top: -910px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 400px; /* set a max width for the container */
+}
+
+.container3 p {
+  margin-left: 10px;
+font-size: 1.5em;
+}
+
+.container3 button {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-left: 125px;
+  max-width: 50%;
+}
+
+.container4 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: 600px;/* align the div to be center manually */
+  margin-top: 50px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 900px; /* set a max width for the container */
+  max-height: 500px;
+}
+
+.text {
+font-size: 1.5em;
+flex-direction: column;
+flex-wrap: wrap;
+margin-left: 51%;
+margin-top: -50%;
+}
+
+.container4 button {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-left: 600px;
+  max-width: 50%;
+}
+
+.container4 img {
+  max-width: 50%;
+}
+
+
+
+.container5 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: 600px;/* align the div to be center manually */
+  margin-top: 60px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 900px; /* set a max width for the container */
+  max-height: 500px;
+}
+
+.container5 p {
+font-size: 1.5em;
+flex-direction: column;
+flex-wrap: wrap;
+margin-left: 51%;
+margin-top: -50%;
+}
+
+.container5 button {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-left: 600px;
+  max-width: 50%;
+}
+
+.container5 img {
+  max-width: 50%;
+}
+
+.container6 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: 600px;/* align the div to be center manually */
+  margin-top: 60px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 900px; /* set a max width for the container */
+  max-height: 500px;
+}
+
+.container6 p {
+font-size: 1.5em;
+flex-direction: column;
+flex-wrap: wrap;
+margin-left: 51%;
+margin-top: -50%;
+}
+
+.container6 button {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-left: 800px;
+  max-width: 50%;
+}
+
+.container6 img {
+  max-width: 50%;
+}
