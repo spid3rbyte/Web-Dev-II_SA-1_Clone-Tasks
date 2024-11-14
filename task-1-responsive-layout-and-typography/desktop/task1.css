@@ -16,7 +16,7 @@
         padding: 12px; /* following the specification for small mobile  */
     }
 
-    .first, .second, .third {
+    .content{
         width: 100%;
         margin-bottom: 20px; 
         flex-wrap: wrap;
@@ -42,7 +42,7 @@
         padding: 20px;
     }
 
-    .first, .second, .third {
+    .content {
         width: 58%; 
         display: inline-block; /* helps display the columns next to each other */
         margin-bottom: 20px; 
@@ -149,10 +149,10 @@ body {
     max-height: 1000px;
 }
 
-
 .mainimage {
     margin-right: 40px;
 }
+
 .images {
     display: flex;
     justify-content:right;
