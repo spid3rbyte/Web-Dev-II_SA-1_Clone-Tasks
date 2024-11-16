@@ -51,7 +51,7 @@
 }
 
 /* large mobile:  */
-@media (min-width: 541px) and (max-width: 720px) {
+@media (min-width: 540px) and (max-width: 720px) {
     .navigation {
         display: flex;
         flex-direction: column;
@@ -138,6 +138,8 @@
 
     .author {
         flex-wrap: wrap;
+        width: 100%;
+        height: auto;
     }
 }
 
