@@ -1,3 +1,218 @@
+/*media query for mobile*/
+@media (min-width: 360px) and (max-width: 720px) {
+  .navigation {
+    width: 100%;
+    overflow: auto;
+    justify-content: space-between;
+    padding: 32px;
+    justify-content: center;
+    display: flex; /*to use flexbox*/
+  }
+
+  .left {
+    color: #EEF36A;
+    align-items: left;
+    justify-content: center;
+    margin-right: 100px;
+  }
+
+  nav a {
+    text-decoration: none; /* removes the underline from the links */
+    text-align: center;
+    font-size: 17px;
+    color: #FFFFFF; 
+    margin: 0 32px;
+    width: 50%;
+    float: center;
+    align-self: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 200px;
+
+}
+
+.container1 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: left;
+  margin-left: -600px;/* align the div to be center manually */
+  margin-top: 32px;
+  margin-right: 100px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 400px; /* set a max width for the container */
+  box-shadow: grey 2px 5px solid;
+}
+
+.container1 p {
+  margin-left: -600px;
+  font-size: 1.5em;
+}
+
+img{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -600px;
+}
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -800px;
+  justify-content: space-between;
+}
+.container2 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: -600px;/* align the div to be center manually */
+  margin-top: 50px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 400px; /* set a max width for the container */
+  box-shadow: grey 2px 5px solid;
+}
+
+.container2 p {
+  margin-left: -600px;
+font-size: 1.5em;
+}
+
+.container2 button {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-left: -600px;
+  max-width: 50%;
+}
+
+
+.container3 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: -600px;/* align the div to be center manually */
+  margin-top: -910px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 400px; /* set a max width for the container */
+  box-shadow: grey 2px 5px solid;
+}
+
+.container3 p {
+  margin-left: -600px;
+font-size: 1.5em;
+}
+
+.container3 button {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-left: -600px;
+  max-width: 50%;
+}
+
+.container4 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: -600px;/* align the div to be center manually */
+  margin-top: 50px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 900px; /* set a max width for the container */
+  max-height: 500px;
+  box-shadow: grey 2px 5px solid;
+}
+
+.text {
+font-size: 1.5em;
+flex-direction: column;
+flex-wrap: wrap;
+margin-left: 51%;
+margin-top: -50%;
+}
+
+.container4 button {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-left: -600px;
+  max-width: 50%;
+}
+
+.container4 img {
+  max-width: 50%;
+}
+
+
+
+.container5 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: -600px;/* align the div to be center manually */
+  margin-top: 60px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 900px; /* set a max width for the container */
+  max-height: 500px;
+  box-shadow: grey 2px 5px solid;
+}
+
+.container5 p {
+font-size: 1.5em;
+flex-direction: column;
+flex-wrap: wrap;
+margin-left: -600px;
+margin-top: -50%;
+}
+
+.container5 button {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-left: -600px;
+  max-width: 50%;
+}
+
+.container5 img {
+  max-width: 50%;
+}
+
+.container6 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: -600px;/* align the div to be center manually */
+  margin-top: 60px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 900px; /* set a max width for the container */
+  max-height: 500px;
+  box-shadow: grey 2px 5px solid;
+}
+
+.container6 p {
+font-size: 1.5em;
+flex-direction: column;
+flex-wrap: wrap;
+margin-left: -600;
+margin-top: -50%;
+}
+
+.container6 button {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-left: 600px;
+  max-width: 50%;
+  float: right;
+  display: flex;
+}
+
+}
+
 
 /*media query for tablet*/
 @media (min-width: 720px) and (max-width: 1024px) {
@@ -28,6 +243,7 @@
     align-self: center;
     justify-content: center;
     justify-content: space-between;
+    margin-top: 200px;
 
 }
 
@@ -41,6 +257,7 @@
   border: 1px solid black; /* color of border as well as the thickness */      
   flex-wrap: wrap;
   max-width: 400px; /* set a max width for the container */
+  box-shadow: grey 2px 5px solid;
 }
 
 .container1 p {
@@ -51,6 +268,173 @@
 img{
   display: flex;
   flex-wrap: wrap;
+}
+
+.container1 p {
+  margin-left: -600px;
+  font-size: 1.5em;
+}
+
+img{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -600px;
+}
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -800px;
+  justify-content: space-between;
+}
+.container2 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: -600px;/* align the div to be center manually */
+  margin-top: 50px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 400px; /* set a max width for the container */
+  box-shadow: grey 2px 5px solid;
+}
+
+.container2 p {
+  margin-left: -600px;
+font-size: 1.5em;
+}
+
+.container2 button {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-left: -600px;
+  max-width: 50%;
+}
+
+
+.container3 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: -600px;/* align the div to be center manually */
+  margin-top: -910px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 400px; /* set a max width for the container */
+  box-shadow: grey 2px 5px solid;
+}
+
+.container3 p {
+  margin-left: -600px;
+font-size: 1.5em;
+}
+
+.container3 button {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-left: -600px;
+  max-width: 50%;
+}
+
+.container4 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: -600px;/* align the div to be center manually */
+  margin-top: 50px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 900px; /* set a max width for the container */
+  max-height: 500px;
+  box-shadow: grey 2px 5px solid;
+}
+
+.text {
+font-size: 1.5em;
+flex-direction: column;
+flex-wrap: wrap;
+margin-left: 51%;
+margin-top: -50%;
+}
+
+.container4 button {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-left: -600px;
+  max-width: 50%;
+}
+
+.container4 img {
+  max-width: 50%;
+}
+
+
+
+.container5 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: -600px;/* align the div to be center manually */
+  margin-top: 60px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 900px; /* set a max width for the container */
+  max-height: 500px;
+  box-shadow: grey 2px 5px solid;
+}
+
+.container5 p {
+font-size: 1.5em;
+flex-direction: column;
+flex-wrap: wrap;
+margin-left: -600px;
+margin-top: -50%;
+}
+
+.container5 button {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-left: -600px;
+  max-width: 50%;
+}
+
+.container5 img {
+  max-width: 50%;
+}
+
+.container6 {
+  text-align: left; /* align the text on the left */
+  justify-content: center; 
+  align-items: center;
+  margin-left: -600px;/* align the div to be center manually */
+  margin-top: 60px;
+  border: 1px solid black; /* color of border as well as the thickness */      
+  flex-wrap: wrap;
+  max-width: 900px; /* set a max width for the container */
+  max-height: 500px;
+  box-shadow: grey 2px 5px solid;
+}
+
+.container6 p {
+font-size: 1.5em;
+flex-direction: column;
+flex-wrap: wrap;
+margin-left: -600;
+margin-top: -50%;
+}
+
+.container6 button {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-left: 600px;
+  max-width: 50%;
+  float: right;
+  display: flex;
 }
 
 }
@@ -162,6 +546,7 @@ font-size: 1.5em;
   border: 1px solid black; /* color of border as well as the thickness */      
   flex-wrap: wrap;
   max-width: 400px; /* set a max width for the container */
+  box-shadow: grey 2px 5px solid;
 }
 
 .container2 p {
@@ -187,6 +572,7 @@ font-size: 1.5em;
   border: 1px solid black; /* color of border as well as the thickness */      
   flex-wrap: wrap;
   max-width: 400px; /* set a max width for the container */
+  box-shadow: grey 2px 5px solid;
 }
 
 .container3 p {
@@ -212,6 +598,7 @@ font-size: 1.5em;
   flex-wrap: wrap;
   max-width: 900px; /* set a max width for the container */
   max-height: 500px;
+  box-shadow: grey 2px 5px solid;
 }
 
 .text {
@@ -234,8 +621,6 @@ margin-top: -50%;
   max-width: 50%;
 }
 
-
-
 .container5 {
   text-align: left; /* align the text on the left */
   justify-content: center; 
@@ -246,6 +631,7 @@ margin-top: -50%;
   flex-wrap: wrap;
   max-width: 900px; /* set a max width for the container */
   max-height: 500px;
+  box-shadow: grey 2px 5px solid;
 }
 
 .container5 p {
@@ -278,6 +664,7 @@ margin-top: -50%;
   flex-wrap: wrap;
   max-width: 900px; /* set a max width for the container */
   max-height: 500px;
+  box-shadow: grey 2px 5px solid;
 }
 
 .container6 p {
@@ -292,8 +679,10 @@ margin-top: -50%;
   justify-content: center;
   align-items: center;
   font-size: 2em;
-  margin-left: 800px;
+  margin-left: 600px;
   max-width: 50%;
+  float: right;
+  display: flex;
 }
 
 .container6 img {
